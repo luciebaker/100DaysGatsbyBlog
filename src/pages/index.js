@@ -1,21 +1,38 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
+import PostList from '../components/PostList'
+import { graphql, useStaticQuery } from 'gatsby'
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
 
-export default IndexPage
+const getPosts = graphql`
+{
+  allMdx(sort: {fields:frontmatter___date, order: DESC}) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          title
+          subtitle
+          slug
+          date(formatString: "MMMM D, YYYY")
+          author
+        }
+        excerpt
+      }
+    }
+  }
+}
+`
+
+export default () => {
+  const response = useStaticQuery(getPosts)
+  const posts = response.allMdx.edges
+  return (
+    <Layout>
+    <SEO title="Home" />
+    <PostList posts={posts}/>
+    </Layout>
+  )
+}
+
