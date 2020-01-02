@@ -8,13 +8,22 @@ h1 {
   h2 {
     font-family: Montserrat !important;
     color: $mainColor;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
   }
 
   h3 {
     font-family: Montserrat !important;
     margin-bottom: .4rem;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
   h4 {
@@ -28,6 +37,7 @@ h1 {
 
   h6 {
     font-family: Montserrat !important;
+    font-size: 0.9rem;
   }
 
 p {

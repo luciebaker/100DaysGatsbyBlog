@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: "100 Days of Gatsby",
+    titleTemplate: "%s | LB Media",
+    description: "Taking on the 100 Day of Gatsby Challenge",
+    author: "Lucie B",
+    twitterUsername: "@LBMedia7",
+    image: '/LBMedia100.png',
+    url: "https://lbmedia-100daysofgatsby.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,6 +40,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/LBMedia-icon.svg`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-155102369-2",
       },
     },
     {

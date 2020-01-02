@@ -42,7 +42,7 @@ export default ({data}) => {
   const posts = response.allMdx.edges
   return (
     <Layout>
-    <SEO title="100 Days of Gatsby" description="From January 1, 2020, I am taking part in the #100DaysofGatsby Challenge. Here, I will share with you the journey, the highlights & lowlights of each day and simply share my experience." />
+    <SEO title="100 Days of Gatsby" description="Taking on the #100DaysofGatsby Challenge, starting January 1, 2020. Here, I will share with you the journey, the highlights and lowlights each day and simply share my experience." />
     <Hero img={data.defaultBG.childImageSharp.fluid}>
     <DaysHeader title="#100 Days of Gatsby" subtitle="Taking on the Challenge!" />
     </Hero>

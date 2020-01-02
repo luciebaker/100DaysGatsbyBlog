@@ -66,7 +66,7 @@ export default class Navbar extends Component {
             {this.state.links.map(link => {
                 return (
                     <li key={link.id} className="nav-item">
-                    <a href={link.path} key={link.id} target="_blank" rel="noopener noreferrer" className="nav-link text-uppercase">
+                    <a href={link.path} key={link.id} rel="noopener noreferrer" className="nav-link text-uppercase">
                     {link.text}</a>
                     </li>
                 )     

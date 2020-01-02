@@ -14,7 +14,7 @@ const {body} = data.mdx
 
     return (
         <Layout>
-        <SEO title="100 Days of Gatsby" description="From January 1, 2020, I am taking part in the #100DaysofGatsby Challenge. Here, I will share with you the journey, the highlights & lowlights of each day and simply share my experience." />
+        <SEO title={title} description={data.excerpt} />
         <Hero img={data.defaultBG.childImageSharp.fluid}>
         <SingleDaysHeader title={title} subtitle={subtitle} author={author} date={date} />
         </Hero>
