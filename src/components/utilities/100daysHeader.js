@@ -1,5 +1,5 @@
 import React from 'react'
-import GatsbyLogo from '../../images/gatsby-icon.png'
+import GatsbyLogo from '../../images/Gatsby_White.png'
 
 export default function Header({title, subtitle}) {
         return (

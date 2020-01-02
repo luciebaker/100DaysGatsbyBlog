@@ -23,9 +23,9 @@ const {body} = data.mdx
         <MDXRenderer>{body}</MDXRenderer>
         </div>
         </div>
-        <div className="text-center">
+        <div className="text-center pt-3">
             <AniLink fade to='/'>
-            <h5 className="btn-text mb-5">Return to #100 Days of Gatsby <FaChevronCircleRight className="link-icon"/></h5>
+            <h5 className="btn-text mb-4">Return to #100 Days of Gatsby <FaChevronCircleRight className="link-icon"/></h5>
             </AniLink>
         </div>
         <div className="container text-center mt-5 mb-3">

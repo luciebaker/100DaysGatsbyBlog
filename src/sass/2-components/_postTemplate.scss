@@ -11,5 +11,32 @@
     border-left: 30px solid $mainColor;
     padding: 1.5rem 1.5rem .3rem 1.5rem;
     margin: 3rem 1rem 1.5rem 1rem;
-    
+}
+
+.day-container-single h1 {
+  font-family: Montserrat !important;
+    color: $darkBlue;
+    font-weight: 600;
+    font-size: 1.95rem;
+}
+
+.day-container-single h2 {
+  font-family: Montserrat !important;
+    color: $mainColor;
+    font-weight: 600;
+    font-size: 1.75rem;
+    padding-bottom: 0.8rem;
+}
+
+.day-container-single h4 {
+  padding-bottom: 1.2rem;
+  text-align: center;
+}
+
+.day-container-single a {
+  color: $mainColor;
+}
+
+.day-container-single a:hover {
+  color: $yellow;
 }
