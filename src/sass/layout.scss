@@ -1,6 +1,8 @@
 // 1 - BASICS
-@import '1-basics/typography';
 @import '1-basics/variables';
+@import '1-basics/global';
+@import '1-basics/typography';
+@import '1-basics/buttons';
 
 // 2 - COMPONENTS
 
@@ -9,4 +11,9 @@
 @import '2-components/postCard';
 @import '2-components/postList';
 @import '2-components/postTemplate';
+@import '2-components/100days';
+@import '2-components/hero';
+@import '2-components/info';
+
+
 

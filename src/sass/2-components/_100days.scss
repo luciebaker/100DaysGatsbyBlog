@@ -1,0 +1,137 @@
+.days-logo {
+    max-width: 220px;
+    padding-top: 7rem;
+}
+
+.days-logo-col {
+    text-align: right;
+}
+
+.days-hero-title {
+    margin: 9rem 0 0 1.5rem;
+    color: #fff !important;
+    font-size: 5.5vw !important;
+    font-weight: 500 !important;
+    font-family: Merriweather !important;
+}
+
+.days-hero-subtitle {
+    font-size: 1.7rem;
+    color: $yellow;
+    margin: 0.3rem 3rem 0 1.5rem;
+    }
+
+.days-hero-single-title {
+    margin: 9rem 0 0 1.5rem;
+    color: #fff !important;
+    font-size: 5.5vw !important;
+    font-weight: 500 !important;
+    font-family: Merriweather !important;
+}
+    
+.days-hero-single-subtitle {
+    font-size: 1.7rem;
+    color: $yellow;
+    margin: 0.3rem 3rem 0 1.5rem;
+    }
+
+.days-hero-single-date {
+    color:  #1e7dbf;
+    margin: 0.3rem 3rem 0 1.5rem;
+}
+
+@media (max-width: 991px) {
+    .days-hero-title {
+        margin-left: 4.5rem;
+    }
+    .days-hero-subtitle {
+        margin-left: 4.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .days-hero-single-title {
+        margin-left: 4.5rem;
+    }
+    .days-hero-single-subtitle {
+        margin-left: 4.5rem;
+    }
+    .days-hero-single-date {
+        margin-left: 4.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .days-logo {
+        padding-top: 5rem;
+        padding-left: 1.5rem;
+        max-width: 180px;
+    }
+    .days-logo-col {
+        text-align: left;
+
+    }
+    .days-hero-title {
+        font-size: 8vw !important;
+        margin-left: 1.5rem;
+        margin-top: .8rem;
+    }
+    .days-hero-subtitle {
+        margin-left: 1.5rem;
+    }
+    .days-hero-single-date {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .days-hero-single-title {
+        margin-left: 1.5rem;
+        font-size: 8vw !important;
+    }
+    .days-hero-single-subtitle {
+        margin-left: 1.5rem;
+    }
+    .days-hero-single-date {
+        margin-left: 1.5rem;
+    }
+}
+
+.day-container {
+    background-color: #fff;
+    border-left: 30px solid $mainColor;
+    padding: 1.5rem 1.5rem .3rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.day-container h6 {
+    margin-bottom: .4rem;
+    color: $mainColor;
+}
+
+.day-container p {
+    line-height: 1.3rem;
+    margin-bottom: .2rem;
+}
+
+.day-icon {
+    font-size: 2.1rem;
+    color: $mainColor;
+    margin: .7rem .5rem 1rem .5rem;
+    }
+
+.day-icon:hover {
+    color: $yellow;
+    }
+
+    .day-link {
+        color: $mainColor;
+    }
+
+    .day-link:hover {
+        color: $yellow;
+    }
+
+    .day-featured-text {
+        font-size: 2rem;
+    }

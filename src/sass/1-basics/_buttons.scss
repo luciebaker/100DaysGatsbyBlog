@@ -1,0 +1,15 @@
+.btn-text {
+    color: $darkBlue;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.link-icon {
+    color: $mainColor;
+    margin-bottom: .3rem;
+    font-size: 1.7rem;
+}
+
+.btn-text:hover {
+    color: $mainColor;
+}

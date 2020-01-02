@@ -1,0 +1,24 @@
+.hero-title {
+    margin: 9rem 0 0 6.5rem;
+    color: #fff !important;
+    font-size: 5.5vw !important;
+    font-weight: 500 !important;
+    font-family: Merriweather !important;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: $yellow;
+    margin: 0.3rem 3rem 0 6.5rem;
+    }
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 8vw !important;
+        margin-left: 3.7rem;
+        margin-top: 11rem;
+    }
+    .hero-subtitle {
+        margin-left: 3.7rem;
+    }
+}

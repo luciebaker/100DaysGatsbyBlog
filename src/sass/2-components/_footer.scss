@@ -1,5 +1,58 @@
-// 1 - BASICS
-@import '1-basics/_variables';
+.footer-logo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 160px;
+}
 
+.footer h5 {
+    color: #fff;
+    margin: 0;
+}
 
-// 2 - COMPONENTS
+.footer-icon {
+    font-size: 1.7rem;
+    color: #1e7dbf;
+    margin: 3.7rem .5rem 2rem .5rem;
+}
+
+.footer-icon:hover {
+    color: $yellow;
+}
+
+.copyright-border {
+    border-left: solid 70px $mainColor;
+}
+
+.copyright-bg {
+    background-color: $veryDarkBlue;
+}
+
+.copyright-text {
+    color: #fff !important;
+    font-size: .9rem;
+}
+.col-footer-right {
+    border-top: solid 40px $mainColor;
+    border-left: solid 70px $mainColor;
+    border-width: 50% !important;
+    background-color: $darkBlue;
+}
+
+.col-footer {
+    border-top: solid 20px $mainBGColor;
+    background-color: $darkBlue;
+}
+
+@media (max-width: 576px) {
+    .col-footer-right {
+        border-top: solid 20px $mainColor;
+    }
+    .col-footer {
+        border-top: none;
+        border-left: solid 70px $mainColor;
+    }
+
+    .footer-icon {
+        margin-top: 2rem;
+    }
+}
