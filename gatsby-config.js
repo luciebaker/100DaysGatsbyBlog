@@ -6,7 +6,7 @@ module.exports = {
     author: "Lucie B",
     twitterUsername: "@LBMedia7",
     image: '/LBMedia100.png',
-    url: "https://lbmedia-100daysofgatsby.netlify.com",
+    siteUrl: "https://lbmedia-100daysofgatsby.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

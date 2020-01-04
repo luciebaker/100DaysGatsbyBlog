@@ -10,11 +10,12 @@ import SEO from "../components/seo"
 
 const postTemplate = ({data}) => {
 const {title, subtitle, date, author} = data.mdx.frontmatter
-const {body} = data.mdx
+const {body, excerpt} = data.mdx
+console.log(excerpt)
 
     return (
         <Layout>
-        <SEO title={title} description={data.excerpt} />
+        <SEO title={title} description={excerpt} />
         <Hero img={data.defaultBG.childImageSharp.fluid}>
         <SingleDaysHeader title={title} subtitle={subtitle} author={author} date={date} />
         </Hero>

@@ -77,7 +77,7 @@ query SEO {
             defaultDescription: description
             author
             twitterUsername
-            siteUrl: url
+            siteUrl
             defaultImage: image
           }
   }
