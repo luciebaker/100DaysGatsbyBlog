@@ -104,6 +104,10 @@
     margin-bottom: 1.5rem;
 }
 
+.day-container h2:hover {
+    color: $darkBlue;
+}
+
 .day-container h6 {
     margin-bottom: .4rem;
     color: $mainColor;

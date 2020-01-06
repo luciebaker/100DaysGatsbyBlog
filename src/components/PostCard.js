@@ -7,7 +7,9 @@ const PostCard = ({post}) => {
     return (
         
         <div className="container day-container text-left">
+            <AniLink fade to={slug}>
             <h2>{title}</h2>
+            </AniLink>
             <h3>{subtitle}</h3>
             <h6>
             <span>By {author} </span> | <span>{date}</span>

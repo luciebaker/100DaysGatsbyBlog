@@ -1,0 +1,28 @@
+.bt-links {
+    width: 80vw;
+    margin: 0 auto 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .bt-link {
+    text-transform: uppercase;
+    background: $mainColor;
+    color: #fff;
+    border: 2px solid $mainColor;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+
+  }
+  .bt-link:hover {
+    background: $darkBlue;
+    border: 2px solid $darkBlue;
+    color: #fff;
+  }
+
+  .bt-link-active {
+    background: $darkBlue;
+    border: 2px solid $darkBlue;
+    color: #fff;
+  }
