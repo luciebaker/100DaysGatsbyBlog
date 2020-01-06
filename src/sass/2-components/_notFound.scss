@@ -1,0 +1,45 @@
+.notfound-img {
+    max-width: 800px;
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.notfound-text {
+    margin-top: .2rem;
+    font-family: Merriweather !important;
+    font-size: 2.2rem;
+    color: $darkBlue;
+}
+
+@media (max-width: 999px) {
+    .notfound-img {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 770px) {
+    .notfound-img {
+        max-width: 530px;
+    }
+}
+
+@media (max-width: 650px) {
+    .notfound-img {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 430px) {
+    .notfound-img {
+        max-width: 300px;
+    }
+    .notfound-text {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .notfound-img {
+        padding-top: 4rem;
+    }
+}
