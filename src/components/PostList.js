@@ -5,7 +5,7 @@ const PostList = ({ posts }) => {
 
     return (
         <section>
-        <div className="container text-center">
+        <div className="container text-center postcardlist-center">
         {posts.map(({node}, index) => {
             return <PostCard key = {index} post={node} />
         })}

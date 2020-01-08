@@ -104,6 +104,21 @@
     margin-bottom: 1.5rem;
 }
 
+.postcardlist-center {
+    // width: 80vw;
+    margin: .5rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: 2rem;
+    // grid-row-gap: 1.5rem;
+  }
+
+@media (max-width: 360px) {
+    .postcardlist-center {
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    }
+}
+
 .day-container h2:hover {
     color: $darkBlue;
 }
