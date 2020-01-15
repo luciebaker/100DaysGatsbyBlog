@@ -26,6 +26,7 @@
     font-weight: 600;
     font-size: 1.75rem;
     padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
 }
 
 .day-container-single h4 {
@@ -41,10 +42,15 @@
   color: $yellow;
 }
 
+
 .previous-next-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   padding: 0;
+}
+
+.post-image {
+  max-width: 500px;
 }

@@ -8,7 +8,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../components/layout'
 import SEO from "../components/seo"
     
-const postTemplate = ({data}) => {
+const PostTemplate = ({data}) => {
 const {title, subtitle, date, author} = data.mdx.frontmatter
 const {body, excerpt} = data.mdx
 
@@ -59,4 +59,4 @@ const {body, excerpt} = data.mdx
     `
     
     
-    export default postTemplate
+    export default PostTemplate
