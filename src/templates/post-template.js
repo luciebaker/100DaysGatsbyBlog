@@ -11,9 +11,7 @@ import SEO from "../components/seo"
 const postTemplate = ({data}) => {
 const {title, subtitle, date, author} = data.mdx.frontmatter
 const {body, excerpt} = data.mdx
-    
-    
-    
+
     return (
             <Layout>
             <SEO title={title} description={excerpt} />
@@ -35,7 +33,6 @@ const {body, excerpt} = data.mdx
             </div>
             </Layout>
         )
-    
     }
     
     export const query = graphql`

@@ -40,3 +40,11 @@
 .day-container-single a:hover {
   color: $yellow;
 }
+
+.previous-next-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
